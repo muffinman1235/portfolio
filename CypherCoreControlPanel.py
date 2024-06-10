@@ -197,27 +197,11 @@ if hacking:
 def mini_shell():
     """Simple command-line interface."""
     commands = {
-        'ls': list_directory,
-        'cd': change_directory,
-        'pwd': show_current_directory,
-        'mkdir': make_directory,
-        'touch': touch_file,
-        'rm': remove_path,
-        'wget': download_file,
-        'cat': cat_file,
-        'clear': clear_screen,
-        'py': run_python_file,
-        'file': file_information,
-        'chmod': change_permissions,
-        'id': display_user_info,
-        'dummy': create_dummy_file,
-        'minigame': play_minigame,
-        'ascii': generate_ascii_art,
+        
         'help': help_normal,
         'help_hacking':help_hacking,
         'spam_ping': spam_ping,
         'nslookup':get_ip,
-        'vortextedit':text_editor,
         'send_ping':send_ping,
         'scan_port':tcp_syn_scan,
         'sniff':sniff_packets,
